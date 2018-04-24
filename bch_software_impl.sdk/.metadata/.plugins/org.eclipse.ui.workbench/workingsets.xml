@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.cdt.ui.CElementWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1523498219804_1" label="x_ecclib" name="x_ecclib">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/x_ecclib/src/GFMatrix.cpp" type="1"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/x_ecclib/src/ecclib.cpp" type="1"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/x_ecclib/src/BinaryMatrix.h" type="1"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/x_ecclib/src/GaloisField.cpp" type="1"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/x_ecclib/src/GaloisField.h" type="1"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/x_ecclib/src/ecclib.h" type="1"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/x_ecclib/src/main.cc" type="1"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/x_ecclib/src/GFMatrix.h" type="1"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1517533645311_0" label="Window Working Set" name="Aggregate for window 1517533645311"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1523549653491_2" label="Window Working Set" name="Aggregate for window 1523549653491"/>
+<mruList name="x_ecclib"/>
+</workingSetManager>

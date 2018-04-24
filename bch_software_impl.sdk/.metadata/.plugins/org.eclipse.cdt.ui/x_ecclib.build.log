@@ -1,0 +1,64 @@
+21:10:28 **** Build of configuration Debug for project x_ecclib ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/BinaryMatrix.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/BinaryMatrix.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/BinaryMatrix.d" -MT"src/BinaryMatrix.o" -o "src/BinaryMatrix.o" "../src/BinaryMatrix.cpp"
+'Finished building: ../src/BinaryMatrix.cpp'
+' '
+'Building file: ../src/GFMatrix.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/GFMatrix.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/GFMatrix.d" -MT"src/GFMatrix.o" -o "src/GFMatrix.o" "../src/GFMatrix.cpp"
+'Finished building: ../src/GFMatrix.cpp'
+' '
+'Building file: ../src/GaloisField.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/GaloisField.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/GaloisField.d" -MT"src/GaloisField.o" -o "src/GaloisField.o" "../src/GaloisField.cpp"
+'Finished building: ../src/GaloisField.cpp'
+' '
+'Building file: ../src/ecclib.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ecclib.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ecclib.d" -MT"src/ecclib.o" -o "src/ecclib.o" "../src/ecclib.cpp"
+../src/ecclib.cpp: In member function 'std::vector<unsigned char*> EccLib::BCH::ComputeErrorLocationPolynomial(unsigned char**)':
+../src/ecclib.cpp:145:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for (int d = 1; d < errorlocpolys[k].size(); d++)
+                    ~~^~~~~~~~~~~~~~~~~~~~~~~~~
+../src/ecclib.cpp:191:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int i = 0; i < errorlocpolys[maxstepdegdiffloc].size(); i++)
+                     ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/ecclib.cpp: In member function 'std::__cxx11::string EccLib::BCH::GFPolynomialToStr(std::vector<unsigned char*>)':
+../src/ecclib.cpp:219:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i < p.size(); i++)
+                   ~~^~~~~~~~~~
+../src/ecclib.cpp: In member function 'std::vector<unsigned char*> EccLib::BCH::SumGFPolynomials(std::vector<unsigned char*>, std::vector<unsigned char*>)':
+../src/ecclib.cpp:243:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (i = 0; i < smaller.size(); i++)
+               ~~^~~~~~~~~~~~~~~~
+../src/ecclib.cpp:252:12: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (; i < larger.size(); i++)
+          ~~^~~~~~~~~~~~~~~
+../src/ecclib.cpp: In member function 'bool EccLib::BCH::CheckGFPolynomialRoot(std::vector<unsigned char*>, unsigned char*)':
+../src/ecclib.cpp:265:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i < poly.size(); i++)
+                   ~~^~~~~~~~~~~~~
+../src/ecclib.cpp:270:19: warning: unused variable 'r0' [-Wunused-variable]
+     unsigned char r0 = root[0];
+                   ^~
+../src/ecclib.cpp:271:19: warning: unused variable 'p0' [-Wunused-variable]
+     unsigned char p0 = poly[i][0];
+                   ^~
+../src/ecclib.cpp:272:19: warning: unused variable 'pr0' [-Wunused-variable]
+     unsigned char pr0 = prod[0];
+                   ^~~
+'Finished building: ../src/ecclib.cpp'
+' '
+'Building file: ../src/main.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+'Finished building: ../src/main.cc'
+' '
+make: *** No rule to make target `BinaryMatrix.o', needed by `x_ecclib.elf'.  Stop.
+
+21:10:33 Build Finished (took 5s.842ms)
+

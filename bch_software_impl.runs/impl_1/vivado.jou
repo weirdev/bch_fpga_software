@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Mon Feb  5 17:33:24 2018
+# Process ID: 1312
+# Current directory: C:/Users/Wesley/dev/CSASA/bram_designed_testinprogress/bram_designed_testinprogress.runs/impl_1
+# Command line: vivado.exe -log System_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source System_wrapper.tcl -notrace
+# Log file: C:/Users/Wesley/dev/CSASA/bram_designed_testinprogress/bram_designed_testinprogress.runs/impl_1/System_wrapper.vdi
+# Journal file: C:/Users/Wesley/dev/CSASA/bram_designed_testinprogress/bram_designed_testinprogress.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source System_wrapper.tcl -notrace

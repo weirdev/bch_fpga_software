@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;x_ecclib/GaloisField.h&apos; to &apos;GaloisField.hpp&apos;" description="Rename resource &apos;GaloisField.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="GaloisField.h" name="GaloisField.hpp" stamp="1523496269976" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;x_ecclib/src/BinaryMatrix2.cpp&apos; to &apos;BinaryMatrix.cpp&apos;" description="Rename resource &apos;BinaryMatrix2.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/BinaryMatrix2.cpp" name="BinaryMatrix.cpp" stamp="1523498626510" updateReferences="true"/>
+</session>
