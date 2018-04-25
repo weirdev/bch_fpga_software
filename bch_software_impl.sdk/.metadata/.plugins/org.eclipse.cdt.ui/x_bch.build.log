@@ -1,40 +1,19 @@
-20:58:32 **** Incremental Build of configuration Debug for project x_bch ****
+15:34:20 **** Incremental Build of configuration Debug for project x_bch ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
-'Building file: ../src/main.cc'
+'Building file: ../src/BinaryMatrix.cpp'
 'Invoking: ARM v7 g++ compiler'
-arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
-../src/main.cc: In function 'void test_BCH_Encode()':
-../src/main.cc:67:6: warning: unused variable 'encoded_bit_len' [-Wunused-variable]
-  int encoded_bit_len = 63;
-      ^~~~~~~~~~~~~~~
-../src/main.cc:68:6: warning: unused variable 't' [-Wunused-variable]
-  int t = 3;
-      ^
-../src/main.cc:69:6: warning: unused variable 'mbytes' [-Wunused-variable]
-  int mbytes = 1;
-      ^~~~~~
-../src/main.cc:78:7: warning: unused variable 'encoded' [-Wunused-variable]
-  auto encoded = bch.Encode(input_bytes);
-       ^~~~~~~
-../src/main.cc: In function 'void test_BCH_Decode(bool)':
-../src/main.cc:93:10: warning: variable 'buffer' set but not used [-Wunused-but-set-variable]
-   char * buffer = new char[500];
-          ^~~~~~
-'Finished building: ../src/main.cc'
-' '
-'Building target: x_bch.elf'
-'Invoking: ARM v7 g++ linker'
-arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "x_bch.elf"  ./src/BinaryMatrix.o ./src/GFMatrix.o ./src/GaloisField.o ./src/ecclib.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
-'Finished building target: x_bch.elf'
-' '
-'Invoking: ARM v7 Print Size'
-arm-none-eabi-size x_bch.elf  |tee "x_bch.elf.size"
-   text	   data	    bss	    dec	    hex	filename
- 817794	   2836	110253660	111074290	69edbf2	x_bch.elf
-'Finished building: x_bch.elf.size'
-' '
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/BinaryMatrix.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/BinaryMatrix.d" -MT"src/BinaryMatrix.o" -o "src/BinaryMatrix.o" "../src/BinaryMatrix.cpp"
+In file included from ../src/BinaryMatrix.h:6:0,
+                 from ../src/BinaryMatrix.cpp:1:
+../src/ecclib.h:100:30: error: ISO C++ forbids in-class initialization of non-const static member 'EccLib::BCH::Done'
+   volatile static int Done = 0; /* Dma transfer is done */
+                              ^
+../src/ecclib.h:101:31: error: ISO C++ forbids in-class initialization of non-const static member 'EccLib::BCH::Error'
+   volatile static int Error = 0; /* Dma Bus Error occurs */
+                               ^
+make: *** [src/BinaryMatrix.o] Error 1
 
-20:58:36 Build Finished (took 3s.456ms)
+15:34:23 Build Finished (took 2s.964ms)
 

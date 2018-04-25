@@ -1,0 +1,90 @@
+#pragma once
+
+#ifndef ECCLIB_H
+#define ECCLIB_H
+
+#include <string>
+#include <vector>
+#include "xparameters.h"
+//#include "stdio.h"
+#include "xil_testmem.h"
+#include "xil_exception.h"
+#include "xil_types.h"
+#include "xil_cache.h"
+
+#include "xuartps.h"	// if PS uart is used
+#include "xscutimer.h"  // if PS Timer is used
+#include "xdmaps.h"		// if PS DMA is used
+#include "xscugic.h" 	// if PS GIC is used
+#include "xil_exception.h"	// if interrupt is used
+#include "xil_printf.h"
+
+#define BRAM_MEMORY XPAR_AXI_BRAM_CTRL_0_S_AXI_BASEADDR
+#define BRAM_MEMORY_LAST_WORD (XPAR_AXI_BRAM_CTRL_0_S_AXI_HIGHADDR-3)
+
+#define RESET_LOOP_COUNT	10	// Number of times to check reset is done
+#define LENGTH 4096 // source and destination buffers lengths in number of words
+
+// you want to avoid writing over our  program
+// since in the standalone/baremetal mode there is no memory protection
+#define DDR_MEMORY XPAR_PS7_DDR_0_S_AXI_BASEADDR+0x00020000 // pass all code and data sections
+
+// values used by the timer initialization
+#define TIMER_DEVICE_ID	XPAR_SCUTIMER_DEVICE_ID
+// BM: just seems like this is the initial value of the timer
+// but why is it important to be -1 / maxuint?
+#define TIMER_LOAD_VALUE 0xFFFFFFFF
+// BM: not sure what these are, but I think interrupt related?
+#define DMA0_ID XPAR_XDMAPS_1_DEVICE_ID
+#define INTC_DEVICE_INT_ID XPAR_SCUGIC_SINGLE_DEVICE_ID
+
+namespace EccLib
+{
+	class BinaryMatrix;
+	class GFMatrix;
+	class GaloisField;
+
+	class Functions
+	{
+	public:
+		static void DummyEncode(unsigned char data[20], unsigned char encoded[20]);
+		static void DummyDecode(unsigned char data[20], unsigned char decoded[20]);
+	};
+
+	class BCH
+	{
+	public:
+		BCH(std::vector<unsigned char> &generatormatrixfile, std::vector<unsigned char> &paritycheckmatrixfile, int m, int t);
+		unsigned char* Encode(unsigned char* data);
+		unsigned char* Decode(unsigned char* data);
+
+		// Temporarily public for testing
+		unsigned char** ComputeSyndrome(unsigned char* data);
+		bool CheckSyndrome(unsigned char** syndrome);
+		std::vector<unsigned char*> ComputeErrorLocationPolynomial(unsigned char** syndrome);
+		std::string GFPolynomialToStr(std::vector<unsigned char*> p);
+
+		GaloisField* _gf;
+	private:
+		BinaryMatrix* _generatormatrix;
+		GFMatrix* _paritycheckmatrix;
+		int t;
+		int m;
+		int m_bytes;
+
+		std::vector<unsigned char*> SumGFPolynomials(std::vector<unsigned char*> p1, std::vector<unsigned char*> p2);
+		bool CheckGFPolynomialRoot(std::vector<unsigned char*> poly, unsigned char* root);
+
+		int SetupIntrSystem(XScuGic *GicPtr, XDmaPs *DmaPtr);
+
+		// used for stdin in this app, instead of, say, scanf library
+		XUartPs Uart_PS;		/* Instance of the UART Device */
+		// low level device for getting clock ticks (just for timing the transfers)
+		XScuTimer Timer;		/* Cortex A9 SCU Private Timer Instance */
+		XDmaPs Dma;				/* PS DMA */
+		XScuGic Gic;			/* PS GIC */
+	};
+}
+
+
+#endif

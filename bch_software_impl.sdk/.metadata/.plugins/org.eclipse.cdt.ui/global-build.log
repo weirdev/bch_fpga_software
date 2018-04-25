@@ -1389,3 +1389,1309 @@ arm-none-eabi-size x_bch.elf  |tee "x_bch.elf.size"
  817794	   2836	110253660	111074290	69edbf2	x_bch.elf
 'Finished building: x_bch.elf.size'
 ' '
+21:40:08 **** Build of project standalone_bsp_0 ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/bram_v4_2/src"
+make -C ps7_cortexa9_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_4/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/bram_v4_2/src"
+make -C ps7_cortexa9_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling bram"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_4/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+21:40:39 **** Build of configuration Debug for project IAlloc ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/memory_alloc.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/memory_alloc.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/memory_alloc.d" -MT"src/memory_alloc.o" -o "src/memory_alloc.o" "../src/memory_alloc.c"
+In file included from ../src/memory_alloc.c:6:0:
+../src/memory_alloc.c: In function 'main':
+../../standalone_bsp_0/ps7_cortexa9_0/include/xparameters.h:41:45: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+ #define XPAR_AXI_BRAM_CTRL_0_S_AXI_BASEADDR 0x40000000U
+                                             ^
+../src/memory_alloc.c:11:21: note: in expansion of macro 'XPAR_AXI_BRAM_CTRL_0_S_AXI_BASEADDR'
+ #define BRAM_MEMORY XPAR_AXI_BRAM_CTRL_0_S_AXI_BASEADDR
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/memory_alloc.c:128:17: note: in expansion of macro 'BRAM_MEMORY'
+   void * base = BRAM_MEMORY;
+                 ^~~~~~~~~~~
+'Finished building: ../src/memory_alloc.c'
+' '
+'Building target: IAlloc.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "IAlloc.elf"  ./src/memory_alloc.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: IAlloc.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size IAlloc.elf  |tee "IAlloc.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26536	   2188	  22632	  51356	   c89c	IAlloc.elf
+'Finished building: IAlloc.elf.size'
+' '
+21:40:42 **** Build of configuration Debug for project HelloWorld ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: HelloWorld.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "HelloWorld.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: HelloWorld.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size HelloWorld.elf  |tee "HelloWorld.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19384	   1148	  22568	  43100	   a85c	HelloWorld.elf
+'Finished building: HelloWorld.elf.size'
+' '
+21:40:44 **** Build of configuration Debug for project BRAM_DMA_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/dma_test.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dma_test.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/dma_test.d" -MT"src/dma_test.o" -o "src/dma_test.o" "../src/dma_test.c"
+'Finished building: ../src/dma_test.c'
+' '
+'Building target: BRAM_DMA_TEST.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "BRAM_DMA_TEST.elf"  ./src/dma_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: BRAM_DMA_TEST.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size BRAM_DMA_TEST.elf  |tee "BRAM_DMA_TEST.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  40452	   2764	  25160	  68376	  10b18	BRAM_DMA_TEST.elf
+'Finished building: BRAM_DMA_TEST.elf.size'
+' '
+21:40:46 **** Build of configuration Debug for project BRAM_App ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bram_app.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bram_app.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bram_app.d" -MT"src/bram_app.o" -o "src/bram_app.o" "../src/bram_app.c"
+'Finished building: ../src/bram_app.c'
+' '
+'Building target: BRAM_App.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "BRAM_App.elf"  ./src/bram_app.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: BRAM_App.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size BRAM_App.elf  |tee "BRAM_App.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22208	   1148	  22568	  45924	   b364	BRAM_App.elf
+'Finished building: BRAM_App.elf.size'
+' '
+21:40:47 **** Build of configuration Debug for project x_bch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/BinaryMatrix.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/BinaryMatrix.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/BinaryMatrix.d" -MT"src/BinaryMatrix.o" -o "src/BinaryMatrix.o" "../src/BinaryMatrix.cpp"
+'Finished building: ../src/BinaryMatrix.cpp'
+' '
+'Building file: ../src/GFMatrix.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/GFMatrix.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/GFMatrix.d" -MT"src/GFMatrix.o" -o "src/GFMatrix.o" "../src/GFMatrix.cpp"
+'Finished building: ../src/GFMatrix.cpp'
+' '
+'Building file: ../src/GaloisField.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/GaloisField.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/GaloisField.d" -MT"src/GaloisField.o" -o "src/GaloisField.o" "../src/GaloisField.cpp"
+'Finished building: ../src/GaloisField.cpp'
+' '
+'Building file: ../src/ecclib.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ecclib.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ecclib.d" -MT"src/ecclib.o" -o "src/ecclib.o" "../src/ecclib.cpp"
+../src/ecclib.cpp: In function 'void EccLib::LoadBRAM_w_GenMat(std::vector<unsigned char>&)':
+../src/ecclib.cpp:58:35: error: 'Timer' was not declared in this scope
+    XScuTimer *TimerInstancePtr = &Timer;
+                                   ^~~~~
+../src/ecclib.cpp:73:4: sorry, unimplemented: non-trivial designated initializers not supported
+    };
+    ^
+../src/ecclib.cpp:73:4: sorry, unimplemented: non-trivial designated initializers not supported
+../src/ecclib.cpp:73:4: sorry, unimplemented: non-trivial designated initializers not supported
+../src/ecclib.cpp:73:4: sorry, unimplemented: non-trivial designated initializers not supported
+../src/ecclib.cpp:73:4: sorry, unimplemented: non-trivial designated initializers not supported
+In file included from ../../standalone_bsp_0/ps7_cortexa9_0/include/xuartps.h:187:0,
+                 from ../src/ecclib.h:15,
+                 from ../src/ecclib.cpp:1:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:83:12: note: in expansion of macro 'XST_FAILURE'
+     return XST_FAILURE;
+            ^~~~~~~~~~~
+../src/ecclib.cpp:86:36: error: 'Uart_PS' was not declared in this scope
+    Status = XUartPs_CfgInitialize(&Uart_PS, Config, Config->BaseAddress);
+                                    ^~~~~~~
+In file included from ../../standalone_bsp_0/ps7_cortexa9_0/include/xuartps.h:187:0,
+                 from ../src/ecclib.h:15,
+                 from ../src/ecclib.cpp:1:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:88:12: note: in expansion of macro 'XST_FAILURE'
+     return XST_FAILURE;
+            ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:97:12: note: in expansion of macro 'XST_FAILURE'
+     return XST_FAILURE;
+            ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:105:12: note: in expansion of macro 'XST_FAILURE'
+     return XST_FAILURE;
+            ^~~~~~~~~~~
+../src/ecclib.cpp:108:36: error: 'Gic' was not declared in this scope
+    Status = XScuGic_CfgInitialize(&Gic, GicConfig,
+                                    ^~~
+In file included from ../../standalone_bsp_0/ps7_cortexa9_0/include/xuartps.h:187:0,
+                 from ../src/ecclib.h:15,
+                 from ../src/ecclib.cpp:1:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:112:12: note: in expansion of macro 'XST_FAILURE'
+     return XST_FAILURE;
+            ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:133:12: note: in expansion of macro 'XST_FAILURE'
+     return XST_FAILURE;
+            ^~~~~~~~~~~
+../src/ecclib.cpp:136:35: error: 'Dma' was not declared in this scope
+    Status = XDmaPs_CfgInitialize(&Dma,DmaCfg,DmaCfg->BaseAddress);
+                                   ^~~
+In file included from ../../standalone_bsp_0/ps7_cortexa9_0/include/xuartps.h:187:0,
+                 from ../src/ecclib.h:15,
+                 from ../src/ecclib.cpp:1:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:140:12: note: in expansion of macro 'XST_FAILURE'
+     return XST_FAILURE;
+            ^~~~~~~~~~~
+../src/ecclib.cpp:145:39: error: 'SetupIntrSystem' was not declared in this scope
+    Status = SetupIntrSystem(&Gic, &Dma);
+                                       ^
+In file included from ../../standalone_bsp_0/ps7_cortexa9_0/include/xuartps.h:187:0,
+                 from ../src/ecclib.h:15,
+                 from ../src/ecclib.cpp:1:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:147:12: note: in expansion of macro 'XST_FAILURE'
+     return XST_FAILURE;
+            ^~~~~~~~~~~
+../src/ecclib.cpp:41:6: warning: unused variable 'select' [-Wunused-variable]
+   u8 select;
+      ^~~~~~
+../src/ecclib.cpp:42:8: warning: unused variable 'i' [-Wunused-variable]
+    int i;
+        ^
+../src/ecclib.cpp:43:11: warning: unused variable 'num' [-Wunused-variable]
+       int num;
+           ^~~
+../src/ecclib.cpp:44:10: warning: unused variable 'num_in' [-Wunused-variable]
+       u8 num_in;
+          ^~~~~~
+../src/ecclib.cpp:45:11: warning: unused variable 'dma_improvement' [-Wunused-variable]
+       int dma_improvement;
+           ^~~~~~~~~~~~~~~
+../src/ecclib.cpp:47:13: warning: unused variable 'source' [-Wunused-variable]
+       u32 * source, * destination;
+             ^~~~~~
+../src/ecclib.cpp:47:23: warning: unused variable 'destination' [-Wunused-variable]
+       u32 * source, * destination;
+                       ^~~~~~~~~~~
+../src/ecclib.cpp:48:11: warning: unused variable 'software_cycles' [-Wunused-variable]
+       int software_cycles, interrupt_cycles;
+           ^~~~~~~~~~~~~~~
+../src/ecclib.cpp:48:28: warning: unused variable 'interrupt_cycles' [-Wunused-variable]
+       int software_cycles, interrupt_cycles;
+                            ^~~~~~~~~~~~~~~~
+../src/ecclib.cpp:63:8: warning: unused variable 'x' [-Wunused-variable]
+    int x;
+        ^
+../src/ecclib.cpp:64:15: warning: unused variable 'DmaCmd' [-Wunused-variable]
+    XDmaPs_Cmd DmaCmd = { // ...no custom dma program...
+               ^~~~~~
+../src/ecclib.cpp:74:17: warning: unused variable 'Channel' [-Wunused-variable]
+    unsigned int Channel = 0;
+                 ^~~~~~~
+../src/ecclib.cpp: In member function 'unsigned char* EccLib::BCH::Encode(unsigned char*)':
+../src/ecclib.cpp:160:2: warning: no return statement in function returning non-void [-Wreturn-type]
+  }
+  ^
+../src/ecclib.cpp: In member function 'void EccLib::BCH::DmaDoneHandler(unsigned int, XDmaPs_Cmd*, void*)':
+../src/ecclib.cpp:206:5: error: 'Done' was not declared in this scope
+     Done = 1;
+     ^~~~
+../src/ecclib.cpp: In function 'void EccLib::DmaFaultHandler(unsigned int, XDmaPs_Cmd*, void*)':
+../src/ecclib.cpp:215:3: error: 'Error' was not declared in this scope
+   Error = 1;
+   ^~~~~
+make: *** [src/ecclib.o] Error 1
+21:45:14 **** Incremental Build of configuration Debug for project IAlloc ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:45:14 **** Incremental Build of configuration Debug for project HelloWorld ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:45:15 **** Incremental Build of configuration Debug for project BRAM_DMA_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:45:16 **** Incremental Build of configuration Debug for project BRAM_App ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:45:17 **** Incremental Build of configuration Debug for project x_bch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ecclib.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ecclib.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ecclib.d" -MT"src/ecclib.o" -o "src/ecclib.o" "../src/ecclib.cpp"
+../src/ecclib.cpp: In member function 'void EccLib::BCH::LoadBRAM_w_GenMat(std::vector<unsigned char>&)':
+../src/ecclib.cpp:73:3: sorry, unimplemented: non-trivial designated initializers not supported
+   };
+   ^
+../src/ecclib.cpp:73:3: sorry, unimplemented: non-trivial designated initializers not supported
+../src/ecclib.cpp:73:3: sorry, unimplemented: non-trivial designated initializers not supported
+../src/ecclib.cpp:73:3: sorry, unimplemented: non-trivial designated initializers not supported
+../src/ecclib.cpp:73:3: sorry, unimplemented: non-trivial designated initializers not supported
+In file included from ../../standalone_bsp_0/ps7_cortexa9_0/include/xuartps.h:187:0,
+                 from ../src/ecclib.h:15,
+                 from ../src/ecclib.cpp:1:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:83:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:88:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:97:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:105:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:112:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:133:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:140:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:147:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../src/ecclib.cpp:41:6: warning: unused variable 'select' [-Wunused-variable]
+   u8 select;
+      ^~~~~~
+../src/ecclib.cpp:42:7: warning: unused variable 'i' [-Wunused-variable]
+   int i;
+       ^
+../src/ecclib.cpp:43:7: warning: unused variable 'num' [-Wunused-variable]
+   int num;
+       ^~~
+../src/ecclib.cpp:44:6: warning: unused variable 'num_in' [-Wunused-variable]
+   u8 num_in;
+      ^~~~~~
+../src/ecclib.cpp:45:7: warning: unused variable 'dma_improvement' [-Wunused-variable]
+   int dma_improvement;
+       ^~~~~~~~~~~~~~~
+../src/ecclib.cpp:47:9: warning: unused variable 'source' [-Wunused-variable]
+   u32 * source, * destination;
+         ^~~~~~
+../src/ecclib.cpp:47:19: warning: unused variable 'destination' [-Wunused-variable]
+   u32 * source, * destination;
+                   ^~~~~~~~~~~
+../src/ecclib.cpp:48:7: warning: unused variable 'software_cycles' [-Wunused-variable]
+   int software_cycles, interrupt_cycles;
+       ^~~~~~~~~~~~~~~
+../src/ecclib.cpp:48:24: warning: unused variable 'interrupt_cycles' [-Wunused-variable]
+   int software_cycles, interrupt_cycles;
+                        ^~~~~~~~~~~~~~~~
+../src/ecclib.cpp:63:7: warning: unused variable 'x' [-Wunused-variable]
+   int x;
+       ^
+../src/ecclib.cpp:64:14: warning: unused variable 'DmaCmd' [-Wunused-variable]
+   XDmaPs_Cmd DmaCmd = { // ...no custom dma program...
+              ^~~~~~
+../src/ecclib.cpp:74:16: warning: unused variable 'Channel' [-Wunused-variable]
+   unsigned int Channel = 0;
+                ^~~~~~~
+../src/ecclib.cpp: In member function 'unsigned char* EccLib::BCH::Encode(unsigned char*)':
+../src/ecclib.cpp:160:2: warning: no return statement in function returning non-void [-Wreturn-type]
+  }
+  ^
+../src/ecclib.cpp: In member function 'void EccLib::BCH::DmaDoneHandler(unsigned int, XDmaPs_Cmd*, void*)':
+../src/ecclib.cpp:206:5: error: 'Done' was not declared in this scope
+     Done = 1;
+     ^~~~
+../src/ecclib.cpp: In function 'void EccLib::DmaFaultHandler(unsigned int, XDmaPs_Cmd*, void*)':
+../src/ecclib.cpp:215:3: error: 'Error' was not declared in this scope
+   Error = 1;
+   ^~~~~
+make: *** [src/ecclib.o] Error 1
+21:47:48 **** Incremental Build of configuration Debug for project IAlloc ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:47:49 **** Incremental Build of configuration Debug for project HelloWorld ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:47:49 **** Incremental Build of configuration Debug for project BRAM_DMA_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:47:50 **** Incremental Build of configuration Debug for project BRAM_App ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:47:51 **** Incremental Build of configuration Debug for project x_bch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ecclib.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ecclib.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ecclib.d" -MT"src/ecclib.o" -o "src/ecclib.o" "../src/ecclib.cpp"
+../src/ecclib.cpp: In member function 'void EccLib::BCH::LoadBRAM_w_GenMat(std::vector<unsigned char>&)':
+../src/ecclib.cpp:73:3: sorry, unimplemented: non-trivial designated initializers not supported
+   };
+   ^
+../src/ecclib.cpp:73:3: sorry, unimplemented: non-trivial designated initializers not supported
+../src/ecclib.cpp:73:3: sorry, unimplemented: non-trivial designated initializers not supported
+../src/ecclib.cpp:73:3: sorry, unimplemented: non-trivial designated initializers not supported
+../src/ecclib.cpp:73:3: sorry, unimplemented: non-trivial designated initializers not supported
+In file included from ../../standalone_bsp_0/ps7_cortexa9_0/include/xuartps.h:187:0,
+                 from ../src/ecclib.h:15,
+                 from ../src/ecclib.cpp:1:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:83:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:88:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:97:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:105:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:112:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:133:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:140:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:147:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../src/ecclib.cpp:41:6: warning: unused variable 'select' [-Wunused-variable]
+   u8 select;
+      ^~~~~~
+../src/ecclib.cpp:42:7: warning: unused variable 'i' [-Wunused-variable]
+   int i;
+       ^
+../src/ecclib.cpp:43:7: warning: unused variable 'num' [-Wunused-variable]
+   int num;
+       ^~~
+../src/ecclib.cpp:44:6: warning: unused variable 'num_in' [-Wunused-variable]
+   u8 num_in;
+      ^~~~~~
+../src/ecclib.cpp:45:7: warning: unused variable 'dma_improvement' [-Wunused-variable]
+   int dma_improvement;
+       ^~~~~~~~~~~~~~~
+../src/ecclib.cpp:47:9: warning: unused variable 'source' [-Wunused-variable]
+   u32 * source, * destination;
+         ^~~~~~
+../src/ecclib.cpp:47:19: warning: unused variable 'destination' [-Wunused-variable]
+   u32 * source, * destination;
+                   ^~~~~~~~~~~
+../src/ecclib.cpp:48:7: warning: unused variable 'software_cycles' [-Wunused-variable]
+   int software_cycles, interrupt_cycles;
+       ^~~~~~~~~~~~~~~
+../src/ecclib.cpp:48:24: warning: unused variable 'interrupt_cycles' [-Wunused-variable]
+   int software_cycles, interrupt_cycles;
+                        ^~~~~~~~~~~~~~~~
+../src/ecclib.cpp:63:7: warning: unused variable 'x' [-Wunused-variable]
+   int x;
+       ^
+../src/ecclib.cpp:64:14: warning: unused variable 'DmaCmd' [-Wunused-variable]
+   XDmaPs_Cmd DmaCmd { // ...no custom dma program...
+              ^~~~~~
+../src/ecclib.cpp:74:16: warning: unused variable 'Channel' [-Wunused-variable]
+   unsigned int Channel = 0;
+                ^~~~~~~
+../src/ecclib.cpp: In member function 'unsigned char* EccLib::BCH::Encode(unsigned char*)':
+../src/ecclib.cpp:160:2: warning: no return statement in function returning non-void [-Wreturn-type]
+  }
+  ^
+../src/ecclib.cpp: In member function 'void EccLib::BCH::DmaDoneHandler(unsigned int, XDmaPs_Cmd*, void*)':
+../src/ecclib.cpp:206:5: error: 'Done' was not declared in this scope
+     Done = 1;
+     ^~~~
+../src/ecclib.cpp: In function 'void EccLib::DmaFaultHandler(unsigned int, XDmaPs_Cmd*, void*)':
+../src/ecclib.cpp:215:3: error: 'Error' was not declared in this scope
+   Error = 1;
+   ^~~~~
+make: *** [src/ecclib.o] Error 1
+21:49:10 **** Incremental Build of configuration Debug for project x_bch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ecclib.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ecclib.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ecclib.d" -MT"src/ecclib.o" -o "src/ecclib.o" "../src/ecclib.cpp"
+../src/ecclib.cpp: In member function 'void EccLib::BCH::LoadBRAM_w_GenMat(std::vector<unsigned char>&)':
+../src/ecclib.cpp:65:5: error: 'ChanCtrl' was not declared in this scope
+     ChanCtrl = {  // type is XDmaPs_ChanCtrl
+     ^~~~~~~~
+../src/ecclib.cpp:66:15: error: 'struct XDmaPs_Cmd' has no member named 'SrcBurstSize'
+       DmaCmdb.SrcBurstSize = 4,
+               ^~~~~~~~~~~~
+In file included from ../../standalone_bsp_0/ps7_cortexa9_0/include/xuartps.h:187:0,
+                 from ../src/ecclib.h:15,
+                 from ../src/ecclib.cpp:1:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:83:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:88:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:97:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:105:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:112:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:133:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:140:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:147:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../src/ecclib.cpp:41:6: warning: unused variable 'select' [-Wunused-variable]
+   u8 select;
+      ^~~~~~
+../src/ecclib.cpp:42:7: warning: unused variable 'i' [-Wunused-variable]
+   int i;
+       ^
+../src/ecclib.cpp:43:7: warning: unused variable 'num' [-Wunused-variable]
+   int num;
+       ^~~
+../src/ecclib.cpp:44:6: warning: unused variable 'num_in' [-Wunused-variable]
+   u8 num_in;
+      ^~~~~~
+../src/ecclib.cpp:45:7: warning: unused variable 'dma_improvement' [-Wunused-variable]
+   int dma_improvement;
+       ^~~~~~~~~~~~~~~
+../src/ecclib.cpp:47:9: warning: unused variable 'source' [-Wunused-variable]
+   u32 * source, * destination;
+         ^~~~~~
+../src/ecclib.cpp:47:19: warning: unused variable 'destination' [-Wunused-variable]
+   u32 * source, * destination;
+                   ^~~~~~~~~~~
+../src/ecclib.cpp:48:7: warning: unused variable 'software_cycles' [-Wunused-variable]
+   int software_cycles, interrupt_cycles;
+       ^~~~~~~~~~~~~~~
+../src/ecclib.cpp:48:24: warning: unused variable 'interrupt_cycles' [-Wunused-variable]
+   int software_cycles, interrupt_cycles;
+                        ^~~~~~~~~~~~~~~~
+../src/ecclib.cpp:63:7: warning: unused variable 'x' [-Wunused-variable]
+   int x;
+       ^
+../src/ecclib.cpp:74:16: warning: unused variable 'Channel' [-Wunused-variable]
+   unsigned int Channel = 0;
+                ^~~~~~~
+../src/ecclib.cpp: In member function 'unsigned char* EccLib::BCH::Encode(unsigned char*)':
+../src/ecclib.cpp:160:2: warning: no return statement in function returning non-void [-Wreturn-type]
+  }
+  ^
+../src/ecclib.cpp: In member function 'void EccLib::BCH::DmaDoneHandler(unsigned int, XDmaPs_Cmd*, void*)':
+../src/ecclib.cpp:206:5: error: 'Done' was not declared in this scope
+     Done = 1;
+     ^~~~
+../src/ecclib.cpp: In function 'void EccLib::DmaFaultHandler(unsigned int, XDmaPs_Cmd*, void*)':
+../src/ecclib.cpp:215:3: error: 'Error' was not declared in this scope
+   Error = 1;
+   ^~~~~
+make: *** [src/ecclib.o] Error 1
+21:49:25 **** Incremental Build of configuration Debug for project IAlloc ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:49:26 **** Incremental Build of configuration Debug for project HelloWorld ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:49:27 **** Incremental Build of configuration Debug for project BRAM_DMA_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:49:28 **** Incremental Build of configuration Debug for project BRAM_App ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:49:28 **** Incremental Build of configuration Debug for project x_bch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ecclib.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ecclib.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ecclib.d" -MT"src/ecclib.o" -o "src/ecclib.o" "../src/ecclib.cpp"
+../src/ecclib.cpp: In member function 'void EccLib::BCH::LoadBRAM_w_GenMat(std::vector<unsigned char>&)':
+../src/ecclib.cpp:65:5: error: 'ChanCtrl' was not declared in this scope
+     ChanCtrl = {  // type is XDmaPs_ChanCtrl
+     ^~~~~~~~
+../src/ecclib.cpp:66:15: error: 'struct XDmaPs_Cmd' has no member named 'SrcBurstSize'
+       DmaCmdb.SrcBurstSize = 4,
+               ^~~~~~~~~~~~
+In file included from ../../standalone_bsp_0/ps7_cortexa9_0/include/xuartps.h:187:0,
+                 from ../src/ecclib.h:15,
+                 from ../src/ecclib.cpp:1:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:83:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:88:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:97:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:105:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:112:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:133:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:140:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:147:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../src/ecclib.cpp:41:6: warning: unused variable 'select' [-Wunused-variable]
+   u8 select;
+      ^~~~~~
+../src/ecclib.cpp:42:7: warning: unused variable 'i' [-Wunused-variable]
+   int i;
+       ^
+../src/ecclib.cpp:43:7: warning: unused variable 'num' [-Wunused-variable]
+   int num;
+       ^~~
+../src/ecclib.cpp:44:6: warning: unused variable 'num_in' [-Wunused-variable]
+   u8 num_in;
+      ^~~~~~
+../src/ecclib.cpp:45:7: warning: unused variable 'dma_improvement' [-Wunused-variable]
+   int dma_improvement;
+       ^~~~~~~~~~~~~~~
+../src/ecclib.cpp:47:9: warning: unused variable 'source' [-Wunused-variable]
+   u32 * source, * destination;
+         ^~~~~~
+../src/ecclib.cpp:47:19: warning: unused variable 'destination' [-Wunused-variable]
+   u32 * source, * destination;
+                   ^~~~~~~~~~~
+../src/ecclib.cpp:48:7: warning: unused variable 'software_cycles' [-Wunused-variable]
+   int software_cycles, interrupt_cycles;
+       ^~~~~~~~~~~~~~~
+../src/ecclib.cpp:48:24: warning: unused variable 'interrupt_cycles' [-Wunused-variable]
+   int software_cycles, interrupt_cycles;
+                        ^~~~~~~~~~~~~~~~
+../src/ecclib.cpp:63:7: warning: unused variable 'x' [-Wunused-variable]
+   int x;
+       ^
+../src/ecclib.cpp:74:16: warning: unused variable 'Channel' [-Wunused-variable]
+   unsigned int Channel = 0;
+                ^~~~~~~
+../src/ecclib.cpp: In member function 'unsigned char* EccLib::BCH::Encode(unsigned char*)':
+../src/ecclib.cpp:160:2: warning: no return statement in function returning non-void [-Wreturn-type]
+  }
+  ^
+../src/ecclib.cpp: In member function 'void EccLib::BCH::DmaDoneHandler(unsigned int, XDmaPs_Cmd*, void*)':
+../src/ecclib.cpp:206:5: error: 'Done' was not declared in this scope
+     Done = 1;
+     ^~~~
+../src/ecclib.cpp: In function 'void EccLib::DmaFaultHandler(unsigned int, XDmaPs_Cmd*, void*)':
+../src/ecclib.cpp:215:3: error: 'Error' was not declared in this scope
+   Error = 1;
+   ^~~~~
+make: *** [src/ecclib.o] Error 1
+22:35:39 **** Incremental Build of configuration Debug for project IAlloc ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+22:35:41 **** Incremental Build of configuration Debug for project HelloWorld ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+22:35:42 **** Incremental Build of configuration Debug for project BRAM_DMA_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+22:35:42 **** Incremental Build of configuration Debug for project BRAM_App ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+22:35:43 **** Incremental Build of configuration Debug for project x_bch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ecclib.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ecclib.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ecclib.d" -MT"src/ecclib.o" -o "src/ecclib.o" "../src/ecclib.cpp"
+In file included from ../../standalone_bsp_0/ps7_cortexa9_0/include/xuartps.h:187:0,
+                 from ../src/ecclib.h:15,
+                 from ../src/ecclib.cpp:1:
+../src/ecclib.cpp: In member function 'void EccLib::BCH::LoadBRAM_w_GenMat(std::vector<unsigned char>&)':
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:82:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:87:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:96:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:104:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:111:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:132:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:139:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:146:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../src/ecclib.cpp:41:6: warning: unused variable 'select' [-Wunused-variable]
+   u8 select;
+      ^~~~~~
+../src/ecclib.cpp:42:7: warning: unused variable 'i' [-Wunused-variable]
+   int i;
+       ^
+../src/ecclib.cpp:43:7: warning: unused variable 'num' [-Wunused-variable]
+   int num;
+       ^~~
+../src/ecclib.cpp:44:6: warning: unused variable 'num_in' [-Wunused-variable]
+   u8 num_in;
+      ^~~~~~
+../src/ecclib.cpp:45:7: warning: unused variable 'dma_improvement' [-Wunused-variable]
+   int dma_improvement;
+       ^~~~~~~~~~~~~~~
+../src/ecclib.cpp:47:9: warning: unused variable 'source' [-Wunused-variable]
+   u32 * source, * destination;
+         ^~~~~~
+../src/ecclib.cpp:47:19: warning: unused variable 'destination' [-Wunused-variable]
+   u32 * source, * destination;
+                   ^~~~~~~~~~~
+../src/ecclib.cpp:48:7: warning: unused variable 'software_cycles' [-Wunused-variable]
+   int software_cycles, interrupt_cycles;
+       ^~~~~~~~~~~~~~~
+../src/ecclib.cpp:48:24: warning: unused variable 'interrupt_cycles' [-Wunused-variable]
+   int software_cycles, interrupt_cycles;
+                        ^~~~~~~~~~~~~~~~
+../src/ecclib.cpp:73:16: warning: unused variable 'Channel' [-Wunused-variable]
+   unsigned int Channel = 0;
+                ^~~~~~~
+../src/ecclib.cpp: In member function 'unsigned char* EccLib::BCH::Encode(unsigned char*)':
+../src/ecclib.cpp:159:2: warning: no return statement in function returning non-void [-Wreturn-type]
+  }
+  ^
+../src/ecclib.cpp: In member function 'void EccLib::BCH::DmaDoneHandler(unsigned int, XDmaPs_Cmd*, void*)':
+../src/ecclib.cpp:205:5: error: 'Done' was not declared in this scope
+     Done = 1;
+     ^~~~
+../src/ecclib.cpp: In function 'void EccLib::DmaFaultHandler(unsigned int, XDmaPs_Cmd*, void*)':
+../src/ecclib.cpp:214:3: error: 'Error' was not declared in this scope
+   Error = 1;
+   ^~~~~
+make: *** [src/ecclib.o] Error 1
+22:37:11 **** Incremental Build of configuration Debug for project IAlloc ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+22:37:12 **** Incremental Build of configuration Debug for project HelloWorld ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+22:37:12 **** Incremental Build of configuration Debug for project BRAM_DMA_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+22:37:13 **** Incremental Build of configuration Debug for project BRAM_App ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+22:37:14 **** Incremental Build of configuration Debug for project x_bch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ecclib.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ecclib.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ecclib.d" -MT"src/ecclib.o" -o "src/ecclib.o" "../src/ecclib.cpp"
+../src/ecclib.cpp: In member function 'void EccLib::BCH::LoadBRAM_w_GenMat(std::vector<unsigned char>&)':
+../src/ecclib.cpp:71:3: error: expected primary-expression before 'unsigned'
+   unsigned int Channel = 0;
+   ^~~~~~~~
+In file included from ../../standalone_bsp_0/ps7_cortexa9_0/include/xuartps.h:187:0,
+                 from ../src/ecclib.h:15,
+                 from ../src/ecclib.cpp:1:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:80:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:85:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:94:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:102:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:109:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:130:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:137:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:144:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../src/ecclib.cpp:41:6: warning: unused variable 'select' [-Wunused-variable]
+   u8 select;
+      ^~~~~~
+../src/ecclib.cpp:42:7: warning: unused variable 'i' [-Wunused-variable]
+   int i;
+       ^
+../src/ecclib.cpp:43:7: warning: unused variable 'num' [-Wunused-variable]
+   int num;
+       ^~~
+../src/ecclib.cpp:44:6: warning: unused variable 'num_in' [-Wunused-variable]
+   u8 num_in;
+      ^~~~~~
+../src/ecclib.cpp:45:7: warning: unused variable 'dma_improvement' [-Wunused-variable]
+   int dma_improvement;
+       ^~~~~~~~~~~~~~~
+../src/ecclib.cpp:47:9: warning: unused variable 'source' [-Wunused-variable]
+   u32 * source, * destination;
+         ^~~~~~
+../src/ecclib.cpp:47:19: warning: unused variable 'destination' [-Wunused-variable]
+   u32 * source, * destination;
+                   ^~~~~~~~~~~
+../src/ecclib.cpp:48:7: warning: unused variable 'software_cycles' [-Wunused-variable]
+   int software_cycles, interrupt_cycles;
+       ^~~~~~~~~~~~~~~
+../src/ecclib.cpp:48:24: warning: unused variable 'interrupt_cycles' [-Wunused-variable]
+   int software_cycles, interrupt_cycles;
+                        ^~~~~~~~~~~~~~~~
+../src/ecclib.cpp: In member function 'unsigned char* EccLib::BCH::Encode(unsigned char*)':
+../src/ecclib.cpp:157:2: warning: no return statement in function returning non-void [-Wreturn-type]
+  }
+  ^
+../src/ecclib.cpp: In member function 'void EccLib::BCH::DmaDoneHandler(unsigned int, XDmaPs_Cmd*, void*)':
+../src/ecclib.cpp:203:5: error: 'Done' was not declared in this scope
+     Done = 1;
+     ^~~~
+../src/ecclib.cpp: In function 'void EccLib::DmaFaultHandler(unsigned int, XDmaPs_Cmd*, void*)':
+../src/ecclib.cpp:212:3: error: 'Error' was not declared in this scope
+   Error = 1;
+   ^~~~~
+make: *** [src/ecclib.o] Error 1
+22:37:52 **** Incremental Build of configuration Debug for project IAlloc ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+22:37:52 **** Incremental Build of configuration Debug for project HelloWorld ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+22:37:53 **** Incremental Build of configuration Debug for project BRAM_DMA_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+22:37:54 **** Incremental Build of configuration Debug for project BRAM_App ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+22:37:54 **** Incremental Build of configuration Debug for project x_bch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ecclib.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ecclib.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ecclib.d" -MT"src/ecclib.o" -o "src/ecclib.o" "../src/ecclib.cpp"
+In file included from ../../standalone_bsp_0/ps7_cortexa9_0/include/xuartps.h:187:0,
+                 from ../src/ecclib.h:15,
+                 from ../src/ecclib.cpp:1:
+../src/ecclib.cpp: In member function 'void EccLib::BCH::LoadBRAM_w_GenMat(std::vector<unsigned char>&)':
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:80:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:85:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:94:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:102:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:109:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:130:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:137:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../../standalone_bsp_0/ps7_cortexa9_0/include/xstatus.h:65:41: error: return-statement with a value, in function returning 'void' [-fpermissive]
+ #define XST_FAILURE                     1L
+                                         ^
+../src/ecclib.cpp:144:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../src/ecclib.cpp:41:6: warning: unused variable 'select' [-Wunused-variable]
+   u8 select;
+      ^~~~~~
+../src/ecclib.cpp:42:7: warning: unused variable 'i' [-Wunused-variable]
+   int i;
+       ^
+../src/ecclib.cpp:43:7: warning: unused variable 'num' [-Wunused-variable]
+   int num;
+       ^~~
+../src/ecclib.cpp:44:6: warning: unused variable 'num_in' [-Wunused-variable]
+   u8 num_in;
+      ^~~~~~
+../src/ecclib.cpp:45:7: warning: unused variable 'dma_improvement' [-Wunused-variable]
+   int dma_improvement;
+       ^~~~~~~~~~~~~~~
+../src/ecclib.cpp:47:9: warning: unused variable 'source' [-Wunused-variable]
+   u32 * source, * destination;
+         ^~~~~~
+../src/ecclib.cpp:47:19: warning: unused variable 'destination' [-Wunused-variable]
+   u32 * source, * destination;
+                   ^~~~~~~~~~~
+../src/ecclib.cpp:48:7: warning: unused variable 'software_cycles' [-Wunused-variable]
+   int software_cycles, interrupt_cycles;
+       ^~~~~~~~~~~~~~~
+../src/ecclib.cpp:48:24: warning: unused variable 'interrupt_cycles' [-Wunused-variable]
+   int software_cycles, interrupt_cycles;
+                        ^~~~~~~~~~~~~~~~
+../src/ecclib.cpp:71:16: warning: unused variable 'Channel' [-Wunused-variable]
+   unsigned int Channel = 0;
+                ^~~~~~~
+../src/ecclib.cpp: In member function 'unsigned char* EccLib::BCH::Encode(unsigned char*)':
+../src/ecclib.cpp:157:2: warning: no return statement in function returning non-void [-Wreturn-type]
+  }
+  ^
+../src/ecclib.cpp: In member function 'void EccLib::BCH::DmaDoneHandler(unsigned int, XDmaPs_Cmd*, void*)':
+../src/ecclib.cpp:203:5: error: 'Done' was not declared in this scope
+     Done = 1;
+     ^~~~
+../src/ecclib.cpp: In function 'void EccLib::DmaFaultHandler(unsigned int, XDmaPs_Cmd*, void*)':
+../src/ecclib.cpp:212:3: error: 'Error' was not declared in this scope
+   Error = 1;
+   ^~~~~
+make: *** [src/ecclib.o] Error 1
+01:49:59 **** Incremental Build of configuration Debug for project IAlloc ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+01:50:01 **** Incremental Build of configuration Debug for project HelloWorld ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+01:50:01 **** Incremental Build of configuration Debug for project BRAM_DMA_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+01:50:02 **** Incremental Build of configuration Debug for project BRAM_App ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+01:50:03 **** Incremental Build of configuration Debug for project x_bch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/BinaryMatrix.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/BinaryMatrix.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/BinaryMatrix.d" -MT"src/BinaryMatrix.o" -o "src/BinaryMatrix.o" "../src/BinaryMatrix.cpp"
+In file included from ../src/BinaryMatrix.h:6:0,
+                 from ../src/BinaryMatrix.cpp:1:
+../src/ecclib.h:95:30: error: ISO C++ forbids in-class initialization of non-const static member 'EccLib::BCH::Done'
+   volatile static int Done = 0; /* Dma transfer is done */
+                              ^
+../src/ecclib.h:96:31: error: ISO C++ forbids in-class initialization of non-const static member 'EccLib::BCH::Error'
+   volatile static int Error = 0; /* Dma Bus Error occurs */
+                               ^
+make: *** [src/BinaryMatrix.o] Error 1
+15:34:13 **** Incremental Build of configuration Debug for project IAlloc ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+15:34:15 **** Incremental Build of configuration Debug for project HelloWorld ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+15:34:16 **** Incremental Build of configuration Debug for project BRAM_DMA_TEST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/dma_test.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dma_test.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/dma_test.d" -MT"src/dma_test.o" -o "src/dma_test.o" "../src/dma_test.c"
+'Finished building: ../src/dma_test.c'
+' '
+'Building target: BRAM_DMA_TEST.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "BRAM_DMA_TEST.elf"  ./src/dma_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: BRAM_DMA_TEST.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size BRAM_DMA_TEST.elf  |tee "BRAM_DMA_TEST.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  40452	   2764	  25160	  68376	  10b18	BRAM_DMA_TEST.elf
+'Finished building: BRAM_DMA_TEST.elf.size'
+' '
+15:34:19 **** Incremental Build of configuration Debug for project BRAM_App ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+15:34:20 **** Incremental Build of configuration Debug for project x_bch ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/BinaryMatrix.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/BinaryMatrix.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/BinaryMatrix.d" -MT"src/BinaryMatrix.o" -o "src/BinaryMatrix.o" "../src/BinaryMatrix.cpp"
+In file included from ../src/BinaryMatrix.h:6:0,
+                 from ../src/BinaryMatrix.cpp:1:
+../src/ecclib.h:100:30: error: ISO C++ forbids in-class initialization of non-const static member 'EccLib::BCH::Done'
+   volatile static int Done = 0; /* Dma transfer is done */
+                              ^
+../src/ecclib.h:101:31: error: ISO C++ forbids in-class initialization of non-const static member 'EccLib::BCH::Error'
+   volatile static int Error = 0; /* Dma Bus Error occurs */
+                               ^
+make: *** [src/BinaryMatrix.o] Error 1

@@ -5,6 +5,43 @@
 
 #include <string>
 #include <vector>
+#include "xparameters.h"
+//#include "stdio.h"
+#include "xil_testmem.h"
+#include "xil_exception.h"
+#include "xil_types.h"
+#include "xil_cache.h"
+
+#include "xuartps.h"	// if PS uart is used
+#include "xscutimer.h"  // if PS Timer is used
+#include "xdmaps.h"		// if PS DMA is used
+#include "xscugic.h" 	// if PS GIC is used
+#include "xil_exception.h"	// if interrupt is used
+#include "xil_printf.h"
+
+#define BRAM_MEMORY XPAR_AXI_BRAM_CTRL_0_S_AXI_BASEADDR
+#define BRAM_MEMORY_LAST_WORD (XPAR_AXI_BRAM_CTRL_0_S_AXI_HIGHADDR-3)
+
+#define RESET_LOOP_COUNT	10	// Number of times to check reset is done
+#define LENGTH 4096 // source and destination buffers lengths in number of words
+
+// you want to avoid writing over our  program
+// since in the standalone/baremetal mode there is no memory protection
+#define DDR_MEMORY XPAR_PS7_DDR_0_S_AXI_BASEADDR+0x00020000 // pass all code and data sections
+
+// values used by the timer initialization
+#define TIMER_DEVICE_ID	XPAR_SCUTIMER_DEVICE_ID
+// BM: just seems like this is the initial value of the timer
+// but why is it important to be -1 / maxuint?
+#define TIMER_LOAD_VALUE 0xFFFFFFFF
+// BM: not sure what these are, but I think interrupt related?
+#define DMA0_ID XPAR_XDMAPS_1_DEVICE_ID
+#define INTC_DEVICE_INT_ID XPAR_SCUGIC_SINGLE_DEVICE_ID
+
+#define ANDXOR_AXI_BASEADDR 0xffff_ffff
+#define BRAM_TOENCODE_ADDR BRAM_MEMORY+504
+#define BRAM_ENCODED_ADDR BRAM_TOENCODE_ADDR+8
+
 
 namespace EccLib
 {
@@ -34,14 +71,34 @@ namespace EccLib
 
 		GaloisField* _gf;
 	private:
-		BinaryMatrix* _generatormatrix;
+		//BinaryMatrix* _generatormatrix;
 		GFMatrix* _paritycheckmatrix;
 		int t;
 		int m;
 		int m_bytes;
 
+		void LoadBRAM_w_GenMat(std::vector<unsigned char> &generatormatrixfile);
 		std::vector<unsigned char*> SumGFPolynomials(std::vector<unsigned char*> p1, std::vector<unsigned char*> p2);
 		bool CheckGFPolynomialRoot(std::vector<unsigned char*> poly, unsigned char* root);
+
+		int SetupIntrSystem(XScuGic *GicPtr, XDmaPs *DmaPtr);
+		void DmaDoneHandler(unsigned int Channel,
+				    XDmaPs_Cmd *DmaCmd,
+				    void *CallbackRef);
+		void DmaFaultHandler(unsigned int Channel,
+				     XDmaPs_Cmd *DmaCmd,
+				     void *CallbackRef);
+
+		// used for stdin in this app, instead of, say, scanf library
+		XUartPs Uart_PS;		/* Instance of the UART Device */
+		// low level device for getting clock ticks (just for timing the transfers)
+		XScuTimer Timer;		/* Cortex A9 SCU Private Timer Instance */
+		XDmaPs Dma;				/* PS DMA */
+		XScuGic Gic;			/* PS GIC */
+
+		// these are two variables used to communicate between the interrupt handlers and main loop
+		volatile static int Done = 0;	/* Dma transfer is done */
+		volatile static int Error = 0;	/* Dma Bus Error occurs */
 	};
 }
 
